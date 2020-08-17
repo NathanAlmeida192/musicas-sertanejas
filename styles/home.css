@@ -1,0 +1,47 @@
+@import url('./shared.css');
+
+body {
+    background-image: url('./../assets/bg_home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+}
+
+.playlist {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.playlist img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.last-live {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    row-gap: 2px;
+}
+
+.last-live a img {
+    transition: 0.5s ease-in-out; 
+}
+
+.last-live a:hover img {
+    opacity: 0.8;
+}
+
+.last-live img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+}
