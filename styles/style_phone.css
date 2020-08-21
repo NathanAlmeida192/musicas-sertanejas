@@ -1,0 +1,7 @@
+@import url('./shared.css');
+
+.last-live, .playlist {
+    grid-template-columns: repeat(2, 50%);
+    margin-left: 20px;
+    margin-right: 20px;
+}

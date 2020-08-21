@@ -45,3 +45,13 @@ h3 {
     color: white;
     font-size: 15px;
 }
+
+header {
+    width: 25%;
+}
+
+p {
+    font-size:13px;
+    color: white;
+    padding: 20px;
+}

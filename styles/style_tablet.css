@@ -1,0 +1,5 @@
+.last-live, .playlist {
+    grid-template-columns: repeat(3,33%);
+    margin-left: 20px;
+    margin-right: 20px;
+}
