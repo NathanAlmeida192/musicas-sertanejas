@@ -3,3 +3,13 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+body {
+    background-image: url('./../assets/bg_home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h3 {
+    padding-left: 20px;
+}
