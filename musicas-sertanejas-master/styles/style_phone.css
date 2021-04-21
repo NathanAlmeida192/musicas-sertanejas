@@ -1,0 +1,21 @@
+@import url('./shared.css');
+
+.last-live, .playlist {
+    grid-template-columns: repeat(2, 50%);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    background-image: url('./../assets/bg_home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    width: 100%;
+}
+
+h3 {
+    padding-left: 20px;
+}
